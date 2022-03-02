@@ -2877,3 +2877,26 @@ padding-right:$(sidebar.width)
 }
 }
 ]]>
+      <![CDATA[
+      body#layout .hidden,
+      body#layout .invisible {
+        display: inherit;
+      }
+      body#layout .navigation {
+        display: none;
+      }
+      body#layout .page {
+        display: inline-block;
+        vertical-align: top;
+        width: 55%;
+      }
+      body#layout .sidebar-container {
+        display: inline-block;
+        float: right;
+        width: 40%;
+      }
+      body#layout .hamburger-menu,
+      body#layout .search {
+        display: none;
+      }
+      ]]>
